@@ -32,7 +32,7 @@ function AboutMe() {
       {/* Sections with different backgrounds */}
       <Box sx={{ backgroundColor: '#f0f0f0', padding: '2rem' }}>
         <Typography variant="h5" gutterBottom sx={{fontWeight: 'bold'}}>
-          Travel
+          Traveling
         </Typography>
         <Typography variant="body1" sx={{paddingBottom: '2rem'}}>
           I enjoy exploring new places and learning about different cultures.
@@ -68,7 +68,7 @@ function AboutMe() {
 
       <Box sx={{ backgroundColor: '#d8e8f0', padding: '2rem' }}>
         <Typography variant="h5" gutterBottom sx={{fontWeight: 'bold'}}>
-          Music
+          Listening to Music & Podcasts
         </Typography>
         <Typography variant="body1" sx={{paddingBottom: '2rem'}}>
           Check out my favorite songs to listen to!
@@ -78,10 +78,10 @@ function AboutMe() {
 
       <Box sx={{ backgroundColor: '#f0f0f0', padding: '2rem', paddingBottom: '2rem', overflow: 'hidden'}}>
         <Typography variant="h5" gutterBottom sx={{fontWeight: 'bold'}}>
-          Books
+          Reading Books
         </Typography>
         <Typography variant="body1" sx={{paddingBottom: '2rem'}}>
-          I love to read books in my free time! My roommate and I also run a book club. 
+          I love to read books in my free time! My roommate and I run a book club for our sororities. 
         </Typography>
         <Goodreads />
       </Box>

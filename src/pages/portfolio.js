@@ -51,14 +51,16 @@ function Portfolio() {
         </Typography>
       </Box>
 
-      {/*<Box sx={{ backgroundColor: '#d8e8f0', padding: '2rem' }}>
-        <Typography variant="h5" gutterBottom>
-          BeachGoers
+      <Box sx={{ backgroundColor: '#d8e8f0', padding: '2rem' }}>
+        <Typography variant="h5" gutterBottom sx={{fontWeight: 'bold'}}>
+          Twitter Discovery Portal
         </Typography>
         <Typography variant="body1">
-          A React web app for ...
+          A web application displaying 6 billion Twitter collections. The collections, reversed
+          engineered from three different databases, YTK, DMI, and SFM, and placed in MongoDB.
+          Worked on the addition of a login and about page on the web application. 
         </Typography>
-      </Box>*/}
+      </Box>
     </Box>
   );
 }

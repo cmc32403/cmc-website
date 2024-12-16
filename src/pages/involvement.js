@@ -83,7 +83,7 @@ function Involvement() {
       </Box>
 
       <Box sx={{ backgroundColor: '#f0f0f0', padding: '2rem' }}>
-        <Typography variant="h5" gutterBottom>
+        <Typography variant="h5" gutterBottom sx={{fontWeight: 'bold'}}>
           Real Greek Life | Blacksburg, VA
         </Typography>
         <Typography variant="body1">

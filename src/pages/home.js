@@ -4,10 +4,9 @@ import { Typography, Box, Grid2, Avatar} from '@mui/material';
 function Home() {
   return (
     <Box sx={{paddingBottom: '4rem'}}>
-      {/* First Section: Image and Blurb */}
       <Grid2 container spacing={4} alignItems="center" sx={{ padding: '2rem' }}>
         <Grid2 item xs={12} md={4}>
-          {/* Circular Image */}
+          {/* Image */}
           <Avatar
             alt="Christina Casey"
             src="..\images\vpoexec.jpg"
@@ -15,19 +14,18 @@ function Home() {
           />
         </Grid2>
         <Grid2 item xs={12} md={8}>
-          {/* Blurb */}
           <Typography variant="h4" gutterBottom sx={{fontWeight: 'bold'}}>
             Hello, I'm Christina Casey!
           </Typography>
           <Typography variant="body1">
-            Welcome to my personal website! I'm a senior Computer Science 
-            student passionate about frontend development. I am a natural 
-            problem solver with strong interpersonal skills seeking an opportunity
-            to apply my foundation in computer science to the dynamic and 
-            creative fields of frontend development and web design. I am 
-            eager to contribute my technical skills and keen eye for creativity 
-            as well as learn new skills and gain valuable experience. Below 
-            you'll find more about my background.
+            Welcome to my personal website! I’m a senior at Virginia Tech pursuing a 
+            degree in Computer Science with minors in Mathematics and Strategic 
+            Communication. Over the past four years, I’ve developed a passion for 
+            frontend development, ethics in technology, computer security, leadership, 
+            and service through my coursework, projects, and community involvement. 
+            I’m currently seeking a full-time role where I can contribute to impactful 
+            projects and continue to grow as a developer. Below you'll find more about 
+            my background.
           </Typography>
         </Grid2>
       </Grid2>

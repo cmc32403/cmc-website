@@ -5,10 +5,9 @@ import WebIcon from '@mui/icons-material/Web';
 function Research() {
   return (
     <Box sx={{paddingBottom: '4rem'}}>
-      {/* First Section: Image and Blurb */}
       <Grid2 container spacing={4} alignItems="center" sx={{ padding: '2rem' }}>
         <Grid2 item xs={12} md={4}>
-          {/* Circular Image */}
+          {/* Image */}
           <Avatar
             alt="Christina Casey"
             src="..\images\christina_headshot2.jpg"
@@ -16,7 +15,6 @@ function Research() {
           />
         </Grid2>
         <Grid2 item xs={12} md={8}>
-          {/* Blurb */}
           <Typography variant="h4" gutterBottom sx={{fontWeight: 'bold'}}>
             Hello, I'm Christina Casey!
           </Typography>
@@ -26,7 +24,6 @@ function Research() {
         </Grid2>
       </Grid2>
 
-      {/* Sections with different backgrounds */}
       <Box sx={{ backgroundColor: '#f0f0f0', padding: '2rem' }}>
         <Typography variant="h5" gutterBottom sx={{fontWeight: 'bold'}}>
           Computer Systems Genome
@@ -37,7 +34,7 @@ function Research() {
         <Typography variant="body1">
           Virginia Polytechnic Institute and State University | Blacksburg, VA<br />
           Broadening Undergrauate Research Groups (BURGs)<br />
-          - Frontend Lead 2024-present<br />
+          - Frontend Lead Fall 2024<br />
           - Frontend Team Member 2023-2024<br />
           The goal of CSG is to catalog the lineage of computer system performance over time. 
           The frontend team creates user-friendly interfaces for our website's 
@@ -64,11 +61,11 @@ function Research() {
           Features
         </Typography>
         <Typography variant="body1">
-          - Implemented a username required functionality. Users now create their accounts with an email, username, and password.
+          - Added a username field to the login page. Users must create an account with an email, username, and password.
           People who sign up with Google, Microsoft, or GitHub will be asked to set a username upon logging in. Users can log into
           their local accounts with either their email or username.<br />
-          - Refined search, filter, and sort functionality of the user table that is only accessible by admins on our website. Updated the table
-          so that admin can search, filter, and sort for users concurrently.<br />
+          - Refined search, sort, and filter functionality of the user table that is only accessible by admins on our website. Updated the table
+          so that admin can search, sort, and filter for users concurrently.<br />
           - Worked on and completed several design updates and smaller tasks. 
         </Typography>
       </Box>
