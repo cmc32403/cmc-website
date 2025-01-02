@@ -10,7 +10,7 @@ function Portfolio() {
           {/* Circular Image */}
           <Avatar
             alt="Christina Casey"
-            src="..\images\christina_ceed.JPG"
+            src="..\images\christina_ceed.jpg"
             sx={{ width: 200, height: 200, margin: 'auto' }}
           />
         </Grid2>
