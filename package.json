@@ -1,7 +1,7 @@
 {
   "name": "cmc-website",
   "version": "0.1.0",
-  "homepage": "https://cmc32403.github.io/cmc32403.github.io",
+  "homepage": "https://cmc32403.github.io/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
