@@ -53,12 +53,14 @@ function Home() {
         </Typography>
         <Typography variant="body1">
           - Java<br />
-          - React<br />
-          - JavaScript<br />
-          - C<br />
           - Python<br />
-          - HTML<br />
-          - CSS<br />
+          - C<br />
+          - JavaScript<br />
+          - TypeScript<br />
+          - HTML/CSS<br />
+          - React.js<br />
+          - Next.js<br />
+          - Git<br />
         </Typography>
         <Typography variant="h6">
           Soft

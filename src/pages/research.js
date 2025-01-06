@@ -51,7 +51,7 @@ function Research() {
         </Typography>
         <Typography variant="body1">
           Development environments: VSCode, Node.js, Jupyter Notebook<br />
-          Languages/Frameworks/Libraries: JavaScript, React, MUI, MDX, D3, YAML/OpenApi<br />
+          Languages/Frameworks/Libraries: JavaScript, React.js, Next.js, MUI, MDX, D3, YAML/OpenApi<br />
           Version Control: GitLab
         </Typography>
       </Box>
@@ -66,7 +66,7 @@ function Research() {
           their local accounts with either their email or username.<br />
           - Refined search, sort, and filter functionality of the user table that is only accessible by admins on our website. Updated the table
           so that admin can search, sort, and filter for users concurrently.<br />
-          - Worked on and completed several design updates and smaller tasks. 
+          - Worked on and completed several design updates and smaller tasks such as updating the About page and CSG in the News. 
         </Typography>
       </Box>
 

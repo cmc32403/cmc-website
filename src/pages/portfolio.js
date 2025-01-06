@@ -31,13 +31,28 @@ function Portfolio() {
         </Typography>
         <Typography variant="body1">
           I coded my personal website from scratch! 
-          I created a react web app using React, 
-          JavaScript, MUI, and some CSS. I added widgets
-          from Spotify and Goodreads as well!
+          A React.js web application using JavaScript and
+          some CSS to display my work 
+          and showcase my skills. Hosted on GitHub Pages
+          and is accessible by https://cmc32403.github.io/.
+          I added widgets from Spotify and Goodreads as well!
         </Typography>
       </Box>
 
       <Box sx={{ backgroundColor: '#f0f0f0', padding: '2rem' }}>
+      <Typography variant="h5" gutterBottom sx={{fontWeight: 'bold'}}>
+          Twitter Discovery Portal
+        </Typography>
+        <Typography variant="body1">
+          A web application displaying 6 billion Twitter collections. The collections, reversed
+          engineered from three different databases, YTK, DMI, and SFM, and placed in MongoDB.
+          Users can search, sort, and filter these collections.
+          Worked on the addition of an Admin login, about page, and filtering
+          on the web application. Admin can upload and delete collections.
+        </Typography>
+      </Box>
+
+      <Box sx={{ backgroundColor: '#d8e8f0', padding: '2rem' }}>
         <Typography variant="h5" gutterBottom sx={{fontWeight: 'bold'}}>
           Job Information Form (JIF) Generator
         </Typography>
@@ -48,17 +63,6 @@ function Portfolio() {
           extension on Google Sheets to create a script that parses the rows and columns
           from our projects master sheet and populates cells on the JIF template.
           The JIFs are then downloaded to a folder and ready to be handed out to our volunteers.
-        </Typography>
-      </Box>
-
-      <Box sx={{ backgroundColor: '#d8e8f0', padding: '2rem' }}>
-        <Typography variant="h5" gutterBottom sx={{fontWeight: 'bold'}}>
-          Twitter Discovery Portal
-        </Typography>
-        <Typography variant="body1">
-          A web application displaying 6 billion Twitter collections. The collections, reversed
-          engineered from three different databases, YTK, DMI, and SFM, and placed in MongoDB.
-          Worked on the addition of a login and about page on the web application. 
         </Typography>
       </Box>
     </Box>

@@ -14,7 +14,7 @@ function AboutMe() {
           {/* Circular Image */}
           <Avatar
             alt="Christina Casey"
-            src={'../images/christina_about.jpg'}
+            src={'../images/christina_about.JPG'}
             sx={{ width: 200, height: 200, margin: 'auto' }}
           />
         </Grid2>
